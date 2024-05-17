@@ -1,0 +1,157 @@
+PS C:\Folders\Github\CSE-2020\HW2> g++ -o main Main.cpp Postfix.cpp
+PS C:\Folders\Github\CSE-2020\HW2> ./main.exe
+push onto stack
+
+push onto stack
+
+operator - to be applied ...
+
+... pop 3
+
+... pop 8
+
+ --> push 5 onto stack
+
+The result of 8 3 - is 5
+---------------------------------------------
+push onto stack
+
+push onto stack
+
+push onto stack
+
+operator - to be applied ...
+
+... pop 3
+
+... pop 8
+
+ --> push 5 onto stack
+
+operator / to be applied ...
+
+... pop 5
+
+... pop 15
+
+ --> push 3 onto stack
+
+The result of 15 8 3 - / is 3
+---------------------------------------------
+push onto stack
+
+push onto stack
+
+push onto stack
+
+operator - to be applied ...
+
+... pop 3
+
+... pop 8
+
+ --> push 5 onto stack
+
+operator / to be applied ...
+
+... pop 5
+
+... pop 15
+
+ --> push 3 onto stack
+
+push onto stack
+
+push onto stack
+
+push onto stack
+
+operator + to be applied ...
+
+... pop 3
+
+... pop 7
+
+ --> push 10 onto stack
+
+operator * to be applied ...
+
+... pop 10
+
+... pop 12
+
+ --> push 120 onto stack
+
+operator + to be applied ...
+
+... pop 120
+
+... pop 3
+
+ --> push 123 onto stack
+
+The result of 15 8 3 - / 12 7 3 + * + is 123
+---------------------------------------------
+push onto stack
+
+push onto stack
+
+push onto stack
+
+operator * to be applied ...
+
+... pop 4
+
+... pop 5
+
+ --> push 20 onto stack
+
+push onto stack
+
+push onto stack
+
+operator - to be applied ...
+
+... pop 1
+
+... pop 2
+
+ --> push 1 onto stack
+
+push onto stack
+
+operator + to be applied ...
+
+... pop 6
+
+... pop 1
+
+ --> push 7 onto stack
+
+push onto stack
+
+operator - to be applied ...
+
+... pop 9
+
+... pop 7
+
+ --> push -2 onto stack
+
+operator / to be applied ...
+
+... pop -2
+
+... pop 20
+
+ --> push -10 onto stack
+
+operator + to be applied ...
+
+... pop -10
+
+... pop 3
+
+ --> push -7 onto stack
+
+The result of 3 5 4 * 2 1 - 6 + 9 - / + is -7
